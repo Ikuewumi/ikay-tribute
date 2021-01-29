@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	max-width: 100vw;
+	background: linear-gradient(145deg, #ecf0f1, #95a5a6, #bdc3c7, #7f8c8d);
+}
+.container{
+	background: #ddd;
+	max-width: 80vw;
+	padding: auto;
+	display: flex;
+	flex-direction: column;
+}
+h1{
+	font-family: Potta One, sans-serif;
+	padding: 0;
+	text-align: center;
+}
+p{
+	font-family: Yusei Magic;
+	padding: 0;
+	text-align: center;
+}
+.topic{
+	text-align: center;
+	padding: 5px 5rem;
+}
+.imgBox{
+	min-height: 70vh;
+	background: url(../img/iKAYen.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
